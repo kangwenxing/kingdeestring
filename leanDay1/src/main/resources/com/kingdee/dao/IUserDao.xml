@@ -5,6 +5,6 @@
 <mapper namespace="com.kingdee.dao.IUserDao">
     <!--配置查询所有-->
     <select id="findAll" resultType="com.kingdee.domain.User">
-        select * from user
+        select * from usertable
     </select>
 </mapper>
